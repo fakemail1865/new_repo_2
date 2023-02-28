@@ -3,7 +3,7 @@ import requests
 import io
 
 # Create a PyGitHub object using your GitHub API access token
-g = Github("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")
+g = Github("fakemail1865","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")
 
 # Get the repository and file you want to access
 repo = g.get_repo("fakemail1865/new_repo_2")
