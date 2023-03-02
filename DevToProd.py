@@ -41,6 +41,5 @@ response = requests.post(url, headers=headers, data=payload)
 if response.status_code == 200:
     print("Model imported and replaced successfully")
 else:
-    print("Error importing and replacing model")
     print(response.text)
 
