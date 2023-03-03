@@ -20,9 +20,9 @@ payload = io.BytesIO(payload_bytes)
 #print(payload)
 
 # Set the URL for the Semarchy import-replace API
-name = 'CustomerB2C'
+name = 'sample'
 key = '0.0'
-url = "http://a7525abf4703b4bd8a72adf63f003c94-754996992.ap-south-1.elb.amazonaws.com/semarchy/api/rest/app-builder/models/{0}/editions/{1}/content".format(name,key)
+url = "http://ac8f348c48cde40689c549eb76eafe01-1845277198.ap-south-1.elb.amazonaws.com/semarchy/api/rest/app-builder/models/{0}/editions/{1}/content".format(name,key)
 
 print(url)
 # Set the headers for the API call
